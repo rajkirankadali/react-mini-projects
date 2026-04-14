@@ -24,5 +24,11 @@ This repository contains 7 mini projects built while learning React.js.
 - JavaScript (ES6)
 - CSS (Glassmorphism + Neon UI)
 
+## Acknowledgment
+
+This project was built as part of my React.js learning journey, inspired by tutorials from Bro Code.
+
+🔗 Channel Link : https://www.youtube.com/@BroCodez
+🔗 Video Link : https://youtu.be/CgkZ7MvWUAA?si=JJFBmfJSTahtNc5C
 ---
  More projects coming soon...
