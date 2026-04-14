@@ -29,6 +29,32 @@ This repository contains 7 mini projects built while learning React.js.
 This project was built as part of my React.js learning journey, inspired by tutorials from Bro Code.
 
 🔗 Channel Link : https://www.youtube.com/@BroCodez
-🔗 Video Link : https://youtu.be/CgkZ7MvWUAA?si=JJFBmfJSTahtNc5C
+🔗 Video Link : https://youtu.be/CgkZ7MvWUAA?si=JJFBmfJSTahtNc5C 
+
+
+## Project Screenshots
+
+### Counter App
+![Counter](./Project_Screenshots/Counter.png)
+
+### Color Picker
+![Color Picker](./Project_Screenshots/Colour-Picker.png)
+
+### To-Do List
+![ToDo](./Project_Screenshots/To-Do-List.png)
+
+### Digital Clock
+![Clock](./Project_Screenshots/Digital-clock-and-Stopwatch.png)
+
+### Stop Watch
+![Stopwatch](./Project_Screenshots/Digital-clock-and-Stopwatch.png)
+
+### Calculator
+![Calculator](./Project_Screenshots/Calculator.png)
+
+### Card Component
+![Card](./Project_Screenshots/Card-and-Counter.png)
+
+
 ---
  More projects coming soon...
