@@ -1,0 +1,533 @@
+body{
+  background-image: url("assets/spider-man-across-3840x2160-11476.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  margin: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+h4{
+  font-size: 1rem;
+  color: bisque;
+}
+
+.card {
+  padding: 40px 60px;
+  margin: 20px auto;
+  text-align: center;
+  max-width: 250px;
+  display: block;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.3); 
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.card .card-img{
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  border: 3px solid rgba(255, 255, 255, 0.5);
+
+}
+
+.card .card-title{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  font-size: 2rem;
+  color: white;
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,0,150,0.6),
+    0 0 40px rgba(0,200,255,0.6);
+}
+
+.card .card-text{
+  color: hsl(0, 0%, 74%);
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,0,150,0.6),
+    0 0 40px rgba(0,200,255,0.6);
+  
+}
+
+/* for counter */
+
+.counter-container {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  border-radius: 10px;
+  margin: 40px;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.3); 
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.count-display {
+  font-size: 9em;
+  margin-top: 0;
+  margin-bottom: 5px;
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,0,150,0.6),
+    0 0 40px rgba(0,200,255,0.6);
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,0,150,0.6),
+    0 0 40px rgba(0,200,255,0.6);
+
+}
+.counter-button {
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 20px 5px;
+  text-shadow: 0 0 10px rgba(255,255,255,0.8);
+
+  background-color: #03071E  ;  
+  color: #ffffff;
+  
+
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+  cursor: pointer;
+
+  transition: 0.3s ease;
+}
+
+.counter-button:hover {
+  background-color: #E20B17 ;
+  color: #fafafa  ;
+  transform: scale(1.06);
+  box-shadow: 0 0 15px rgba(160, 0, 255, 0.8);
+}
+.counter-button:active {
+  transform: scale(0.95);
+}
+
+.counter-text1 {
+  color: #f9f9f9;
+  text-decoration: underline; 
+  font-size: 2.5rem;
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,0,150,0.6),
+    0 0 40px rgba(0,200,255,0.6);
+}
+
+.counter-text2 {
+  color: #f9f9f9; 
+  font-size: 1rem;
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.4),
+    0 0 20px rgba(255,0,150,0.3),
+    0 0 40px rgba(0,200,255,0.3);
+}
+
+
+
+/* Color Picker */
+
+
+.color-picker-container{
+  font-family: cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.3); 
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.colour-heading{
+  font-size: 3rem;
+  text-decoration: underline;
+  margin: 25px;
+  color: lightskyblue;
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.4),
+    0 0 20px rgba(255,0,150,0.3),
+    0 0 40px rgba(0,200,255,0.3);
+
+}
+
+.color-display{
+  width: 250px;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid rgba(255, 255, 255, 0.1);
+  border-radius: 25px;
+  margin-bottom: 25px;
+  transition: 0.25s ease;
+}
+
+.color-display p{
+  color: hsl(0, 0%, 20%);
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+label{
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #f9f9f9; 
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.4),
+    0 0 20px rgba(255,0,150,0.3),
+    0 0 40px rgba(0,200,255,0.3);
+}
+
+input[type="color"]{
+  width: 75px;
+  height: 50px;
+  padding: 5px;
+  border-radius: 10px;
+  border: 3px solid hsl(0, 0%, 80%);
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
+
+
+/* TO DO LIST */
+
+
+.to-do-list {
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  padding: 30px;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fafafa;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.to-do-list h1 {
+  font-size: 2.8rem;
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.to-do-list div {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.to-do-list input {
+  flex: 1;
+  padding: 10px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  border: 2px solid #ddd;
+  outline: none;
+  transition: 0.3s;
+}
+
+.to-do-list input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.4);
+}
+
+.to-do-list ol {
+  padding: 0;
+}
+
+.to-do-list li {
+  list-style: none;
+  background: #f9f9f9;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.to-do-list .text {
+  flex: 1;
+  text-align: left;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.to-do-list .button1 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 8px 12px;
+  margin-left: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: white;
+  transition: 0.3s;
+}
+
+.to-do-list .add-button {
+  background-color: #4CAF50;
+}
+
+.to-do-list .add-button:hover {
+  background-color: #3e8e41;
+}
+
+.to-do-list .delete-button {
+  background-color: #e53935;
+}
+
+.to-do-list .delete-button:hover {
+  background-color: #c62828;
+}
+
+.to-do-list .move-button {
+  background-color: #1e88e5;
+}
+
+.to-do-list .move-button:hover {
+  background-color: #1565c0;
+}
+
+
+
+/* Digital Clock */
+
+.Digital-clock-main h1{
+  text-align: center;
+  text-decoration: underline;
+  margin-bottom: 60px;
+  color: #f9f9f9; 
+  font-size: 2.5rem;
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,0,150,0.6),
+    0 0 40px rgba(0,200,255,0.6);
+}
+
+.clock-container{
+  margin: 50px;
+  backdrop-filter: blur(8px);
+  background: rgba(0, 0, 0, 0.3); 
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 40px 60px;
+  border-radius: 20px;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+.clock{
+  color: white;
+  font-size: 6rem;
+  font-weight: bold;
+  font-family: monospace;
+  text-align: center;
+
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,0,150,0.6),
+    0 0 40px rgba(0,200,255,0.6);
+}
+
+
+
+/* Stop Watch */
+
+
+.stopWatch {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  padding: 30px;
+  border-radius: 20px;
+  width: 320px;
+  margin: 50px auto;
+  background: rgba(20, 20, 30, 0.6);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.8),
+              0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.stopWatch h1 {
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #f9f9f9; 
+  font-size: 3rem;
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,0,150,0.6),
+    0 0 40px rgba(0,200,255,0.6);
+}
+
+/* Time display */
+.sw-display {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00f7ff;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  text-shadow: 0 0 10px rgba(0, 247, 255, 0.6);
+}
+
+/* Buttons container */
+.sw-controls {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 10px;
+}
+
+
+.sw-controls button {
+  padding: 15px 25px;
+  margin-bottom: 20px;
+  font-size: 0.9rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  color: white;
+  transition: all 0.25s ease;
+}
+
+
+.start-button {
+  background: linear-gradient(135deg, #00ff87, #00c9ff);
+  box-shadow: 0 0 10px rgba(0, 255, 135, 0.5);
+}
+
+.start-button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(0, 255, 135, 0.8);
+}
+
+.stop-button {
+  background: linear-gradient(135deg, #ff416c, #ff4b2b);
+  box-shadow: 0 0 10px rgba(255, 65, 108, 0.5);
+}
+
+.stop-button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(255, 65, 108, 0.8);
+}
+
+.reset-button {
+  background: linear-gradient(135deg, #7f00ff, #e100ff);
+  box-shadow: 0 0 10px rgba(160, 0, 255, 0.5);
+}
+
+.reset-button:hover {
+  transform: scale(1.08);
+  box-shadow: 0 0 15px rgba(160, 0, 255, 0.8);
+}
+
+
+
+/* Calculatorr */
+
+
+.calc-container {
+  width: 300px;
+  margin: 60px auto;
+  padding: 25px;
+  border-radius: 16px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+
+  background: rgba(20, 20, 30, 0.7);
+  backdrop-filter: blur(12px);
+  border: 1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 0 25px rgba(0,0,0,0.8);
+  
+  
+}
+
+.calc-title {
+  margin-bottom: 15px;
+  color: white;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+  text-decoration: underline;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  color: #f9f9f9; 
+  font-size: 3rem;
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(255,0,150,0.6),
+    0 0 40px rgba(0,200,255,0.6);
+}
+
+.calc-display {
+  background: rgba(0,0,0,0.6);
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  text-shadow: 
+    0 0 10px rgba(255,255,255,0.8),
+    0 0 20px rgba(100,100,150,0.6),
+    0 0 40px rgba(110,200,255,0.6);
+  font-size: 2rem;
+  color: bisque;
+  text-align: right;
+  overflow-x: auto;
+}
+
+.calc-buttons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.calc-buttons button {
+  height: 60px;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer; 
+  background: rgba(255,255,255,0.07);
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.calc-buttons button:hover {
+  transform: scale(1.05);
+  background: rgba(0,255,255,0.2);
+}
+
+.calc-buttons button:active {
+  transform: scale(0.95);
+}
+
+.btn-equal {
+  font-size: 1.3rem;
+  font-weight: bold;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 25px rgba(0,0,0,1);
+}
