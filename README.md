@@ -24,6 +24,9 @@ This repository contains 7 mini projects built while learning React.js.
 - JavaScript (ES6)
 - CSS (Glassmorphism + Neon UI)
 
+## Live Demo
+https://react-7-mini-projects.netlify.app/
+
 ## Acknowledgment
 
 This project was built as part of my React.js learning journey, inspired by tutorials from Bro Code.
@@ -52,8 +55,5 @@ This project was built as part of my React.js learning journey, inspired by tuto
 ### Card Component
 ![Card](./Project_Screenshots/Card-and-Counter.png)
 
----
-## Live Demo
-https://your-netlify-link.netlify.app
 ---
  More projects coming soon...
