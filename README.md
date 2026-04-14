@@ -43,11 +43,8 @@ This project was built as part of my React.js learning journey, inspired by tuto
 ### To-Do List
 ![ToDo](./Project_Screenshots/To-Do-List.png)
 
-### Digital Clock
-![Clock](./Project_Screenshots/Digital-clock-and-Stopwatch.png)
-
-### Stop Watch
-![Stopwatch](./Project_Screenshots/Digital-clock-and-Stopwatch.png)
+### Digital Clock and Stop Watch
+![Stopwatch](./Project_Screenshots/Digital-clock-and-Stop-Watch.png)
 
 ### Calculator
 ![Calculator](./Project_Screenshots/Calculator.png)
